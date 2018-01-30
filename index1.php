@@ -14,13 +14,31 @@ and open the template in the editor.
     <body>
         <form method="post" action="test.php">
             
-                <div>APPLICANT FIRST NAME  <input type="text" name="afn" required/></div>
-        <div>APPLICANT MIDDLE NAME<input type="text" name="amn"/></div>
-        <div> APPLICANT LAST NAME  <input type="text" name="aln" required/></div>
-        <div>DATE OF BIRTH(B.S) <input type="date" name="date" required</div>
-        <div> AGE <input type="number" name="age" required</div>
-        
-        <div><input type="submit" value="Submit" /></div>
+                    <table><tr>
+                            <td>APPLICANT FIRST NAME</td>
+                            <td><input type="text" name="afn" required/></td>
+                </tr>
+                <tr>
+                    <td>APPLICANT MIDDLE NAME </td>
+                    
+                    <td><input type="text" name="amn"></td>
+                    
+                </tr>
+                <tr>
+                    <td>APPLICANT LAST NAME</td>
+                    
+                    <td><input type="text" name="aln" required/></td>
+                </tr>
+        <tr>
+            <td>DATE OF BIRTH(B.S)</td>
+            <td> <input type="date" name="date" required></td>
+        </tr>
+        <tr>
+            <td>AGE</td> <td><input type="number" name="age" required</td>
+        </tr>
+        <tr><td><input type="submit" value="Submit" /></td>
+        </tr>
+        </table>
         </form>
         
     </body>
